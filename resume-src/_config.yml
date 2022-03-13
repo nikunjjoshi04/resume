@@ -1,0 +1,91 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/resume-src)
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nikunj Joshi
+title: Full Stack Python Developer
+email: nikunjjoshi04@gmail.com
+# email_title: Email (Email title override)
+phone: +91 834-785-6135
+# phone_title: Phone (Phone title override)
+#website: # Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+#darkmode: true
+#  Social links
+twitter_username: NikunjJ02259288
+github_username: nikunjjoshi04
+stackoverflow_username: "6502133"
+facebook_username: nikjoshi04
+instagram_username: nikunjjoshi04
+linkedin_username: nikunj-joshi-8bab1b12a
+pinterest_username: nikunjjoshi04
+#dribbble_username: nikunjjoshi04
+#flickr_username: nikunjjoshi04
+#xing_username: nikunjjoshi04
+#youtube_username: nikunjjoshi04
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+  - title: DownLoad
+    icon: fas fa-download
+    url: https://google.com
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+#gtm: "GTM-0000000"
+#gtag: "UA-00000000-0"
+#google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/nikunj-joshi.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+
+content:
+  - title: When I'm Not Programming
+    content: | # this will include new lines to allow paragraphs
+      When I’m not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like rock climbing and playing some rugby. I currently have 2 horses and find this is a great way to get out of the house and taking my mind of things while learing to showjump.
+
+      I’m interested in photography and videography as I like to be creative, this is mainly through sport but I enjoy landscape and abstract photography too. I like to showcase my work on instagram if you would like to take a look - jameswgrant.
+
+      Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of Bristol’s indoor climbing centres or down ‘The Rec’ supporting Bath Rugby.
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: resume-src (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/resume-src (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude: [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]

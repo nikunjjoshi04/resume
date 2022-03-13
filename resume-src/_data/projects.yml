@@ -1,0 +1,131 @@
+- layout: top-middle
+  title: SHOPPING SCRAPPER
+  caption:
+    text: QUIXOM TECHNOLOGY PVT. LTD.
+    url: https://www.quixom.com/
+  link:
+    text: shoppingscraper.com
+    url: https://shoppingscraper.com/
+  additional_links:
+    - title: Github page for project
+      icon: fab fa-github
+      url: #
+  quote:
+    Information provider and analytical system.
+  description:
+    Information provider and analytical system. Where users can collect information about products from different e-commerce platforms, perform analytics and generate different results, track information about products. It provides many data like prices, availability, state, sipping price, reviews, ranking, and author information about the product across platforms.
+  role:
+    Managed Project, create REST API in FastApi Framework, scrape product information from different ecommerce platforms, normalize data, dump normalize data in rethinkDB, and write test cases.
+  environment_tags:
+    - Python
+    - FastApi
+    - Docker
+    - RethinkDB
+    - Beautifulsoup
+    - Pandas
+    - HTTPX
+    - S3Bucket
+    - GooGle Schedular
+    - Google Pub-Sub
+- layout: top-middle
+  title: HR MANAGEMENT
+  caption:
+    text: QUIXOM TECHNOLOGY PVT. LTD.
+    url: https://www.quixom.com/
+  link:
+    text: troohr.com
+    url: https://troohr.com/
+  additional_links:
+    - title: Github page for project
+      icon: fab fa-github
+      url: #
+  quote:
+    HR/Organization management portal.
+  description:
+    It is used to manage the human resource of an organization.
+    Where an organization can manage employee leaves, employee overtime, employee review, employee salary/payroll, Interviews, Message Broadcast, etc…
+  role:
+    Managed Project Back-End and Front-End, Design Models, Forms, Views and Communicate with the team, Deploy on NGINX Server.
+  environment_tags:
+    - Python
+    - Django
+    - Docker
+    - PostgreSQL
+    - RqWorker
+    - Django-Filters
+    - Django-Forms
+    - Django-Templates
+    - Django-ClassBesedViews
+    - HTML
+    - CSS
+    - Bootstrap
+    - JAVASCRIPT
+    - JQuery
+    - AJAX
+- layout: top-middle
+  title: ELECTO ANALYTICS
+  caption:
+    text: QUIXOM TECHNOLOGY PVT. LTD.
+    url: https://www.quixom.com/
+  link:
+    text: electoanalytics.com
+    url: https://electoanalytics.com/
+  additional_links:
+    - title: Github page for project
+      icon: fab fa-github
+      url: #
+  quote:
+    Electo Analytics is a Information provider/Public affairs system.
+  description:
+    Electo Analytics is a public affairs system. On the informative site, Policy teams use Electo Analytics to track relevant regulation, legislation, and stakeholders in order to influence policy. Teams can access content from leading think tanks nationwide
+  role:
+    Managed Project Back-End, Web scraping with selenium and beautifulsoup, Build REST API in django rest framework, Front-End, Develop interactive UI modules in VUE.JS.
+  environment_tags:
+    - Python
+    - Django
+    - Django Rest Framework
+    - VUE.JS
+    - Docker
+    - PostgreSQL
+    - Selenium
+    - Beautifulsoup
+    - Requests
+    - RqWorker
+    - Django-Filters
+    - Django-Forms
+    - Django-Templates
+    - Django-ClassBesedViews
+    - HTML
+    - CSS
+    - Bootstrap
+    - JAVASCRIPT
+    - JQuery
+    - AJAX
+- layout: top-middle
+  title: LOBLOLLY
+  caption:
+    text: QUIXOM TECHNOLOGY PVT. LTD.
+    url: https://www.quixom.com/
+  link:
+    text: loblolly.com
+    url: #
+  additional_links:
+    - title: Github page for project
+      icon: fab fa-github
+      url: #
+  quote:
+    Loblolly is Social media and business tools automation system.
+  description:
+    This system is focused on social media and business tools automation.
+    The application is capable of automating almost all popular social media and business tools, authentication, action, event, webhook, read-write data, etc…
+    allow almost all social media and business tools to connect in one place.
+    Facebook, Instagram, Twitter, Linkedin, google services, Gmail, QuickBooks, etc...
+  role:
+    Managed Project Back-End, Build Rest API, Integrate different authentication and authorization tools.
+  environment_tags:
+    - Python
+    - Django
+    - Django Rest Framework
+    - Docker
+    - PostgreSQL
+    - All-Auth

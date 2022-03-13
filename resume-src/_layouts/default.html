@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+    {%- include header.html -%}
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {%- if jekyll.environment == 'production' and site.gtm -%}
+                {%- include gtm_body.html -%}
+            {%- endif -%}
+
+            {%- include about.html -%}
+
+            <div class="container list-container">
+                <h3 id="{{ 'education' | slugify }}">Education</h3>
+                {% include section-list.html content=site.data.education %}
+            </div>
+            <div class="container list-container">
+                <h3 id="{{ 'experience' | slugify }}">Experience</h3>
+                {% include section-list.html content=site.data.experience %}
+            </div>
+            <div class="container list-container">
+                <h3 id="{{ 'projects' | slugify }}">Projects</h3>
+                {% for item in site.data.projects %}
+                    <div class="row clearfix layout layout-{{ item.layout | default: 'left' }} border-{{ item.border | default: 'no' }}">
+                        <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+                            <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+                            {%- if item.caption -%}
+                                {% include a.html href=item.caption.url class="link" %}
+                                {%- if item.caption.text -%} {{ item.caption.text }} {%- else -%} {{ item.caption.url }} {%- endif -%}
+                                </a>
+                            {%- endif -%}
+                            {%- if item.link -%}
+                                {% include a.html href=item.link.url class="link" %}
+                                {%- if item.link.text -%} {{ item.link.text }} {%- else -%} {{ item.link.url }} {%- endif -%}
+                                </a>
+                            {%- endif -%}
+                            <p class="no-print aditional-links">
+                                {% for link in item.additional_links %}
+                                    {% include a.html href=link.url class="" %}
+                                    <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+                                    </a>
+                                {% endfor %}
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+                            {%- if item.quote -%}
+                                <p class="quote">{{ item.quote }}</p>
+                            {%- endif -%}
+                            {{ item.description | strip | markdownify }}
+                            {%- if item.role -%}
+                                <p><b>Role:</b></p>
+                                {{ item.role | strip | markdownify }}
+                            {%- endif -%}
+                            {%- if item.environment_tags -%}
+                                {% for tag in item.environment_tags %}
+                                    <mark>{{ tag }}</mark>
+                                {% endfor %}
+                            {%- endif -%}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="container list-container">
+                {% assign author = site.content[-1] %}
+                <h3 id="{{ 'more about me' | slugify }}">{{ author.title }}</h3>
+                {% include section-text.html content=author.content %}
+            </div>
+        </div>
+    </main>
+    {%- include footer.html -%}
+    {% if site.darkmode == false %}
+        <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+    {% endif %}
+</body>
+</html>
+
+
