@@ -129,3 +129,33 @@
     - Docker
     - PostgreSQL
     - All-Auth
+- layout: top-middle
+  title: YR-LANG
+  caption:
+    text: QUIXOM TECHNOLOGY PVT. LTD.
+    url: https://www.quixom.com/
+  link:
+    text: yrlang.com
+    url: #
+  additional_links:
+    - title: Github page for project
+      icon: fab fa-github
+      url: #
+  quote:
+    Service-Providing site.
+  description:
+    This is a service-providing site where users can book different types of providers, like barbers, translators, tourist guides, cleaners, etc...
+  role:
+    Managed Project Back-End Front-End and different tools.
+  environment_tags:
+    - Python
+    - Django
+    - Docker
+    - PostgreSQL
+    - All-Auth
+    - HTML
+    - CSS
+    - Bootstrap
+    - JAVASCRIPT
+    - JQuery
+    - AJAX
