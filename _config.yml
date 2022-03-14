@@ -34,10 +34,10 @@ pinterest_username: nikunjjoshi04
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-  - title: DownLoad
-    icon: fas fa-download
-    url: https://google.com
+#additional_links:
+#  - title: DownLoad
+#    icon: fas fa-download
+#    url: https://google.com
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
