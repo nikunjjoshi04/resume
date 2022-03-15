@@ -53,14 +53,14 @@ about_content: | # this will include new lines to allow paragraphs
   
   I like working creating clean and efficient developer experiences to allow developers to focus on code quality and the end-user experience. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. The things that I currently have the most experience working with are: 
   
-  <mark>Python</mark> <mark>Django</mark> <mark>FastApi</mark> <mark>VUE.JS</mark> <mark>Docker</mark> <mark>AWS</mark>
+  <mark>Python</mark> <mark>Django</mark> <mark>Django REST Framework</mark> <mark>FastApi</mark> <mark>VUE.JS</mark> <mark>Docker</mark> <mark>AWS</mark>
 
 content:
   - title: When I'm Not Programming
     content: | # this will include new lines to allow paragraphs
       When I’m not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as mountain biking, road cycling, kitesuring and horse riding as well as trying to make time for things like rock climbing and playing some rugby. I currently have 2 horses and find this is a great way to get out of the house and taking my mind of things while learing to showjump.
 
-      I’m interested in photography and videography as I like to be creative, this is mainly through sport but I enjoy landscape and abstract photography too. I like to showcase my work on instagram if you would like to take a look - jameswgrant.
+      I’m interested in photography and videography as I like to be creative, this is mainly through sport but I enjoy landscape and abstract photography too. I like to showcase my work on instagram if you would like to take a look - [Nikunj Joshi](https://www.instagram.com/nikunjjoshi04).
 
       Finally during the rest of my free time you will either find me working on my bikes, rock climbing at one of Bristol’s indoor climbing centres or down ‘The Rec’ supporting Bath Rugby.
 

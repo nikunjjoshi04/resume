@@ -25,7 +25,7 @@
     - Pandas
     - HTTPX
     - S3Bucket
-    - GooGle Schedular
+    - Google Schedular
     - Google Pub-Sub
 - layout: top-middle
   title: HR MANAGEMENT
