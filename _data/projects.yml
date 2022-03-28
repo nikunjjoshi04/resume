@@ -13,7 +13,9 @@
   quote:
     Information provider and analytical system.
   description:
-    Information provider and analytical system. Where users can collect information about products from different e-commerce platforms, perform analytics and generate different results, track information about products. It provides many data like prices, availability, state, sipping price, reviews, ranking, and author information about the product across platforms.
+    Shopping Scraper is for extracting data from marketplaces such as Google shopping and web shops in specific European and Western country domains. It scrapes product details from the product details page. It helps to analyze the market for new prospects and clients.
+    
+    The system identifies all relevant sellers, Descriptions, Specs, Brands, EAN(European article Number), Products Images, Product Links, Categories, Stock Availability, Reviews/Ranking, prices, and many more details multiple times a day and the system will automatically scrap the details about the products. After getting the Response for Products data, user can access & download the raw data files from .csv, .xlsx, and JASON.
   role:
     Managed Project, create REST API in FastApi Framework, scrape product information from different ecommerce platforms, normalize data, dump normalize data in rethinkDB, and write test cases.
   environment_tags:
@@ -77,7 +79,12 @@
   quote:
     Electo Analytics is a Information provider/Public affairs system.
   description:
-    Electo Analytics is a public affairs system. On the informative site, Policy teams use Electo Analytics to track relevant regulation, legislation, and stakeholders in order to influence policy. Teams can access content from leading think tanks nationwide
+    The ElectoPremium is a tool that provides a unified platform to manage and simplify Public Affairs and Government Relations. With the help of this tool, businesses can monitor policies, Roll call votes, Engage Stakeholders, Manage Directory, keep track of Legislative bills and Regulations, provide a Grassroot Advocacy platform, and help to Manage Projects.
+
+    ElectoPremium provides overall coverage of United States Congress and helps the Businesses by providing voting records of representatives and senators, biographical & committee data from various sources, and giving real-time updates on state, local, and federal proposals from the point of introduction to final bills and regulations.
+    
+    Previously, Getting access to legislative and regulatory activity, whether it is local, state, or federal level, or to check updates on the bills and issues, or to view the agency data was
+    challenging and time-consuming and the Client has to go through different websites of the government for the updates, find bills or regulations, view the stakeholder's data was a time consuming process and was difficult to manage.
   role:
     Managed Project Back-End, Web scraping with selenium and beautifulsoup, Build REST API in django rest framework, Front-End, Develop interactive UI modules in VUE.JS.
   environment_tags:
